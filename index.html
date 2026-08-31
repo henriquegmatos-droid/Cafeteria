@@ -14,21 +14,20 @@
 </head>
 <body>
 
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
+  <!-- Cabeçalho da página com logo e navegação principal -->
   <header class="navbar" id="navbar">
     <div class="navbar__inner">
       <a class="navbar__brand" href="#" aria-label="Tijolinho de Café, início">
         <span class="brand-mark" aria-hidden="true">
-          <span></span><span></span><span></span>
         </span>
         Tijolinho de Café
       </a>
 
+      <!-- Botão de menu para dispositivos móveis -->
       <button class="navbar__toggle" id="navToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu de navegação">
-        <span></span><span></span><span></span>
       </button>
 
+      <!-- Menu de navegação das páginas do site -->
       <nav class="navbar__menu" id="navMenu" aria-label="Navegação principal">
         <a class="nav-link is-active" href="cardápio.html">Cardápio</a>
         <a class="nav-link" href="Sobre-nós.html">Sobre nós</a>
@@ -37,12 +36,12 @@
     </div>
   </header>
 
+  <!-- Conteúdo principal da página -->
   <main id="conteudo">
 
+    <!-- Hero principal com chamada de marketing e botões de ação -->
     <section class="hero">
       <div class="hero__bricks" aria-hidden="true">
-        <span></span><span></span><span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span><span></span><span></span>
       </div>
       <div class="hero__content">
         <p class="eyebrow">Torra artesanal, feita devagar</p>
@@ -55,16 +54,18 @@
       </div>
     </section>
 
+    <!-- Separador decorativo entre o hero e os destaques -->
     <div class="brick-divider" aria-hidden="true">
-      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
 
+    <!-- Seção com cards para destacar as principais áreas do site -->
     <section class="highlights" aria-labelledby="highlights-title">
       <p class="eyebrow eyebrow--center">Comece por aqui</p>
       <h2 id="highlights-title">Escolha por onde começar</h2>
 
       <div class="card-grid">
 
+        <!-- Card destacado do cardápio -->
         <article class="card card--featured">
           <img class="card__image" src="logo_cardapio.png" alt="Xícara de café servida sobre pires de madeira" loading="lazy">
           <div class="card__body">
@@ -75,6 +76,7 @@
           </div>
         </article>
 
+        <!-- Card sobre a história da cafeteria -->
         <article class="card">
           <div class="card__body">
             <span class="card__icon" aria-hidden="true">🧱</span>
@@ -84,6 +86,7 @@
           </div>
         </article>
 
+        <!-- Card de contato -->
         <article class="card">
           <div class="card__body">
             <span class="card__icon" aria-hidden="true">✉️</span>
@@ -98,11 +101,11 @@
 
   </main>
 
+  <!-- Rodapé com marca e links de navegação -->
   <footer class="footer">
     <div class="footer__inner">
       <div class="footer__brand">
         <span class="brand-mark brand-mark--light" aria-hidden="true">
-          <span></span><span></span><span></span>
         </span>
         Tijolinho de Café
       </div>
@@ -115,6 +118,7 @@
     </div>
   </footer>
 
+  <!-- Script responsável pelo menu, ano dinâmico e formulário -->
   <script src="js/index.js"></script>
 </body>
 </html>
