@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Tijolinho de Café</title>
+    <meta name="description" content="Conheça a história do Tijolinho de Café, nossa missão e o cuidado por trás de cada xícara.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="navbar" id="navbar">
+        <div class="navbar__inner">
+            <a class="navbar__brand" href="index.html" aria-label="Tijolinho de Café, início">
+                <span class="brand-mark" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                </span>
+                Tijolinho de Café
+            </a>
+
+            <button class="navbar__toggle" id="navToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu de navegação">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="navbar__menu" id="navMenu" aria-label="Navegação principal">
+                <a class="nav-link" href="cardápio.html">Cardápio</a>
+                <a class="nav-link is-active" href="Sobre-nós.html">Sobre nós</a>
+                <a class="nav-link" href="Fale-conosco.html">Fale conosco</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="page-hero">
+            <p class="eyebrow">A casa que serve café com alma</p>
+            <h1 class="page-hero__title">Sobre o Tijolinho de Café</h1>
+            <p class="page-hero__subtitle">Mais do que uma cafeteria, um lugar de encontro.</p>
+        </section>
+
+        <div class="brick-divider" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <section class="about-shell" aria-labelledby="about-title">
+            <div class="about-section">
+                <article class="story-card">
+                    <p class="eyebrow">Nossa história</p>
+                    <h2 id="about-title">Uma ideia construída xícara a xícara.</h2>
+
+                    <p>Bem-vindo ao Tijolinho de Café! Somos uma cafeteria especializada em oferecer os melhores cafés artesanais, preparados com ingredientes de qualidade e um ambiente acolhedor.</p>
+
+                    <p>Nosso objetivo é proporcionar uma experiência única aos nossos clientes, combinando sabores excepcionais com um atendimento amigável e personalizado.</p>
+
+                    <p>Acreditamos que cada café começa com um cuidado especial: da escolha do grão à forma de servir. Por isso, trabalhamos com torra artesanal, ingredientes bem selecionados e uma rotina que respeita o sabor e a conversa.</p>
+
+                    <ul class="about-list">
+                        <li>Grãos selecionados e torrados com atenção</li>
+                        <li>Ambiente acolhedor e pensado para receber pessoas</li>
+                        <li>Atendimento caloroso e personalizado</li>
+                    </ul>
+                </article>
+
+                <aside class="about-aside">
+                    <div class="about-highlight">
+                        <p class="eyebrow">Nossa essência</p>
+                        <p class="about-highlight__text">Cafés de qualidade, preparo cuidadoso e um ambiente que convida a ficar um pouco mais.</p>
+                    </div>
+
+                    <div class="about-stats" aria-label="Informações da cafeteria">
+                        <div class="stat">
+                            <strong>7h</strong>
+                            <span>às 18h</span>
+                        </div>
+                        <div class="stat">
+                            <strong>1</strong>
+                            <span>ano de história</span>
+                        </div>
+                        <div class="stat">
+                            <strong>100%</strong>
+                            <span>feito com cuidado</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <span class="brand-mark brand-mark--light" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                </span>
+                Tijolinho de Café
+            </div>
+            <nav class="footer__links" aria-label="Links do rodapé">
+                <a href="cardápio.html">Cardápio</a>
+                <a href="Sobre-nós.html">Sobre nós</a>
+                <a href="Fale-conosco.html">Fale conosco</a>
+            </nav>
+            <p class="footer__copy">© <span id="year"></span> Tijolinho de Café. Feito xícara a xícara.</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

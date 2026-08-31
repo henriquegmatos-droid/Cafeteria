@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tijolinho de Café — Bem-vindo</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a class="navbar__brand" href="#" aria-label="Tijolinho de Café, início">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        Tijolinho de Café
+      </a>
+
+      <button class="navbar__toggle" id="navToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu de navegação">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar__menu" id="navMenu" aria-label="Navegação principal">
+        <a class="nav-link is-active" href="cardápio.html">Cardápio</a>
+        <a class="nav-link" href="Sobre-nós.html">Sobre nós</a>
+        <a class="nav-link" href="Fale-conosco.html">Fale conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="hero">
+      <div class="hero__bricks" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow">Torra artesanal, feita devagar</p>
+        <h1>Cada xícara é um tijolinho de conforto.</h1>
+        <p class="hero__subtitle">Construímos essa casa café a café — grãos selecionados, torra lenta e o cuidado de quem gosta de servir bem.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="cardápio.html">Ver cardápio</a>
+          <a class="btn btn--ghost" href="Fale-conosco.html">Fale com a gente</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="brick-divider" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <section class="highlights" aria-labelledby="highlights-title">
+      <p class="eyebrow eyebrow--center">Comece por aqui</p>
+      <h2 id="highlights-title">Escolha por onde começar</h2>
+
+      <div class="card-grid">
+
+        <article class="card card--featured">
+          <img class="card__image" src="logo_cardapio.png" alt="Xícara de café servida sobre pires de madeira" loading="lazy">
+          <div class="card__body">
+            <span class="card__tag">Mais pedido</span>
+            <h3 class="card__title">Nosso cardápio</h3>
+            <p class="card__text">Do espresso puro ao café com essência, cada bebida tem sua própria receita — e um tijolinho de história.</p>
+            <a class="btn btn--primary" href="cardápio.html">Ver cardápio completo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__body">
+            <span class="card__icon" aria-hidden="true">🧱</span>
+            <h3 class="card__title">Quem faz o tijolinho</h3>
+            <p class="card__text">A história da torra, da vizinhança e das mãos por trás de cada xícara que sai do balcão.</p>
+            <a class="btn btn--outline" href="Sobre-nós.html">Conhecer a história</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__body">
+            <span class="card__icon" aria-hidden="true">✉️</span>
+            <h3 class="card__title">Fale conosco</h3>
+            <p class="card__text">Dúvidas, encomendas ou só um oi. Respondemos rápido — sem enrolação, com café por perto.</p>
+            <a class="btn btn--outline" href="Fale-conosco.html">Enviar mensagem</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="brand-mark brand-mark--light" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        Tijolinho de Café
+      </div>
+      <nav class="footer__links" aria-label="Links do rodapé">
+        <a href="cardápio.html">Cardápio</a>
+        <a href="Sobre-nós.html">Sobre nós</a>
+        <a href="Fale-conosco.html">Fale conosco</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> Tijolinho de Café. Feito xícara a xícara.</p>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
