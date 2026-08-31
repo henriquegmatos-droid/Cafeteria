@@ -13,21 +13,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Link para pular diretamente para o conteúdo principal -->
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
+    <!-- Cabeçalho com navegação principal -->
     <header class="navbar" id="navbar">
         <div class="navbar__inner">
             <a class="navbar__brand" href="index.html" aria-label="Tijolinho de Café, início">
                 <span class="brand-mark" aria-hidden="true">
-                    <span></span><span></span><span></span>
                 </span>
                 Tijolinho de Café
             </a>
 
+            <!-- Botão do menu mobile -->
             <button class="navbar__toggle" id="navToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu de navegação">
-                <span></span><span></span><span></span>
             </button>
 
+            <!-- Menu de navegação do site -->
             <nav class="navbar__menu" id="navMenu" aria-label="Navegação principal">
                 <a class="nav-link" href="cardápio.html">Cardápio</a>
                 <a class="nav-link is-active" href="Sobre-nós.html">Sobre nós</a>
@@ -36,19 +38,24 @@
         </div>
     </header>
 
+    <!-- Conteúdo principal -->
     <main id="conteudo">
+        <!-- Hero da página sobre a cafeteria -->
         <section class="page-hero">
             <p class="eyebrow">A casa que serve café com alma</p>
             <h1 class="page-hero__title">Sobre o Tijolinho de Café</h1>
             <p class="page-hero__subtitle">Mais do que uma cafeteria, um lugar de encontro.</p>
         </section>
 
+        <!-- Separador visual -->
         <div class="brick-divider" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
 
+        <!-- Seção de apresentação da história e valores -->
         <section class="about-shell" aria-labelledby="about-title">
             <div class="about-section">
+
+                <!-- Texto principal da história -->
                 <article class="story-card">
                     <p class="eyebrow">Nossa história</p>
                     <h2 id="about-title">Uma ideia construída xícara a xícara.</h2>
@@ -66,6 +73,7 @@
                     </ul>
                 </article>
 
+                <!-- Bloco lateral com a essência e estatísticas -->
                 <aside class="about-aside">
                     <div class="about-highlight">
                         <p class="eyebrow">Nossa essência</p>
@@ -91,11 +99,11 @@
         </section>
     </main>
 
+    <!-- Rodapé da página -->
     <footer class="footer">
         <div class="footer__inner">
             <div class="footer__brand">
                 <span class="brand-mark brand-mark--light" aria-hidden="true">
-                    <span></span><span></span><span></span>
                 </span>
                 Tijolinho de Café
             </div>
@@ -108,6 +116,7 @@
         </div>
     </footer>
 
+    <!-- Script geral de interações do site -->
     <script src="js/index.js"></script>
 </body>
 </html>
